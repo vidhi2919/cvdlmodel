@@ -1,0 +1,49 @@
+/* static/css/style.css */
+.main-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.upload-form {
+    margin: 30px 0;
+    padding: 20px;
+    border: 2px dashed #ddd;
+    border-radius: 5px;
+}
+
+.preview-image {
+    max-width: 100%;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.result-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.result-real {
+    color: #28a745;
+}
+
+.result-fake {
+    color: #dc3545;
+}
+
+.confidence-bar {
+    height: 20px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.confidence-level {
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.6s ease;
+}
